@@ -1,0 +1,1 @@
+Anepistemosis is the chronic condition of not knowing.

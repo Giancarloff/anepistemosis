@@ -102,7 +102,7 @@ From this point on, any second order variable is to be understood as a set. Reca
     \item $F \subseteq G \iff F(x) \implies G(x)$.
 \end{enumerate}
 
-From this, we should get that $\negset{\emptyset} = \mathbb{U}$, $\negset{\U} = \emptyset$, $\emptyset \subseteq \U$, and $\neg (\U \subseteq \emptyset)$.
+From this, we should get that $\negset{\emptyset} = \mathbb{U}$, $\negset{\U} = \emptyset$, $\emptyset \subseteq \U$.
 
 Let us just get some useful definitions out of the way: \begin{enumerate}
     \item $\forall x \forall y : x \neq y \iff \neg (x = y)$; and
@@ -123,7 +123,7 @@ and then we may formulate $c \in R$.
 
 Here perhaps a discussion ought to be had on how to interpret $F(x)$ for a set $F$. It is meant to be natural: $F(x)$ means $x$ is a first order variable quantified some way, either with $\forall$ or with $\exists$. To know if $F(y)$ for some $y \in \U$, we drop the quantifier and replace $x$ with $y$ in what is left of the formula. So $\exists x : G(x)$ turns into $G(y)$. Since $G(y)$ is just a formula, we should be able to evaluate it.
 
-We can postulare a finite amount of constants in a finite formula. As an example, here is the formula for two constans: \begin{equation}
+We can postulate a finite amount of constants in a finite formula. As an example, here is the formula for two constans: \begin{equation}
     \exists x \exists y \forall z : z = x \vee z = y \wee y \neq x.
 \end{equation}
 

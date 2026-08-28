@@ -1,1 +1,0 @@
-Como explicar? Eu me divirto.
